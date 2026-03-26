@@ -1,0 +1,11 @@
+# Core dependencies
+python-telegram-bot==20.7
+pypdf==4.0.1
+python-dotenv==1.0.0
+
+# For tray application
+pystray==0.19.1
+Pillow==10.1.0
+
+# For Windows API (optional - for better tray integration)
+pywin32==306
