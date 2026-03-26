@@ -25,7 +25,7 @@ noble-printer-bot/
 
   2. Clone and setup
 
-git clone https://github.com/cxncer/noble-printer-bot.git
+git clone https://github.com/Cxncer/TelePrint
 cd noble-printer-bot
 python -m venv venv
 venv\Scripts\activate
