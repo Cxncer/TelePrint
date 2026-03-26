@@ -5,18 +5,6 @@ Telegram bot for print shop automation. Users upload documents, select paper siz
 
 ---
 
-# 📁 Project Structure
-
-
-noble-printer-bot/
-  nobleprinter.py           # Main bot
-  bot_tray_launcher.py      # System tray with log viewer
-  start_bot_silent.vbs      # Startup script
-  .env.example              # Environment template
-  requirements.txt          # Dependencies
-
----
-
 # 🚀 Quick Start
 
   1. Install Python 3.12 and SumatraPDF
