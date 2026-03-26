@@ -1,56 +1,53 @@
-You're right, let's keep it simple and short. Here's a complete README.md you can copy directly:
 
-```markdown
 # 🖨️ Noble Printer Bot
 
 Telegram bot for print shop automation. Users upload documents, select paper size, color, duplex, copies, and the bot prints to a network printer.
 
 ---
 
-## 📁 Project Structure
+# 📁 Project Structure
 
-```
+
 noble-printer-bot/
   nobleprinter.py           # Main bot
   bot_tray_launcher.py      # System tray with log viewer
   start_bot_silent.vbs      # Startup script
   .env.example              # Environment template
   requirements.txt          # Dependencies
-```
 
 ---
 
-## 🚀 Quick Start
+# 🚀 Quick Start
 
-### 1. Install Python 3.12 and SumatraPDF
+  1. Install Python 3.12 and SumatraPDF
 - Python: [python.org](https://www.python.org/downloads/)
 - SumatraPDF: [sumatrapdfreader.org](https://www.sumatrapdfreader.org/download-free-pdf-viewer)
 
-### 2. Clone and setup
-```bash
+  2. Clone and setup
+
 git clone https://github.com/yourusername/noble-printer-bot.git
 cd noble-printer-bot
 python -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
-```
 
-### 3. Configure
+
+  3. Configure
 Copy `.env.example` to `.env` and edit:
-```
+
 BOT_TOKEN=your_bot_token
 STAFF_GROUP_ID=-1001234567890
 PRINTER_IP=192.168.1.100
 PRINTER_NAME=iR-ADV C3530(2)
-```
 
-### 4. Run
+
+  4. Run
 - Test: `python nobleprinter.py`
 - Background: double-click `start_bot_silent.vbs`
 
 ---
 
-## 🖥️ Commands
+# 🖥️ Commands
 
 | Command | Description |
 |---------|-------------|
@@ -60,7 +57,7 @@ PRINTER_NAME=iR-ADV C3530(2)
 
 ---
 
-## 📊 Pricing
+# 📊 Pricing
 
 - BW A4: 200 riels/page
 - Color A4: 300 riels/page
@@ -69,7 +66,7 @@ PRINTER_NAME=iR-ADV C3530(2)
 
 ---
 
-## 🔧 Troubleshooting
+# 🔧 Troubleshooting
 
 - **Bot not responding**: Check token and group ID.
 - **Printer not printing**: Verify printer IP and name.
@@ -77,7 +74,7 @@ PRINTER_NAME=iR-ADV C3530(2)
 
 ---
 
-## 🙏 Credits
+# 🙏 Credits
 
 - [python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot)
 - [PyPDF](https://pypi.org/project/pypdf/)
@@ -88,4 +85,3 @@ Special thanks to **[DeepSeek](https://deepseek.com)** for development assistanc
 ---
 
 *Made with ❤️ in Cambodia 🇰🇭*
-```
